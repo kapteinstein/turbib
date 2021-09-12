@@ -1,0 +1,188 @@
+html {
+	overflow-x: hidden;
+	margin-right: calc(-1 * (100vw - 100%));
+}
+
+
+
+html, body {
+	margin-bottom: 0;
+	margin-top: 0;
+	height: 100%;
+}
+body {
+	min-width: 1000px;
+	color: #333;
+	/*background-color: rgb(50, 54, 57);
+	color: rgb(241, 243, 244);*/
+	font-family: Georgia, serif;
+	font-size: 80%;
+	-moz-osx-font-smoothing: grayscale;
+	-webkit-font-smoothing: antialiased;
+}
+
+
+a { color: #004070; }
+/* a { color: rgb(241, 243, 244) } */
+a:hover { color: #B44444; }
+
+
+/*
+a:link { color: #0077aa }
+a:visited { color: #941352 }
+*/
+/* Reset the container */
+.container {
+	width: 1000px;
+	max-width: none !important;
+	/* border: 1px solid red; */
+}
+
+.monospace {
+	font-family: monospace !important;
+}
+
+.gray-table table {
+	border: 1px solid #e7e7e7;
+	border-collapse: collapse;
+	width: 100%;
+}
+.gray-table table th,
+.gray-table table td {
+	border: solid #e7e7e7;
+	border-width: 1px 1px 0 0;
+	padding: 2px 5px;
+	margin: 0;
+
+}
+
+.white-table table {
+	border: 1px solid #ffffff;
+	border-collapse: collapse;
+	width: 100%;
+}
+.white-table table th,
+.white-table table td {
+	border: solid #ffffff;
+	border-width: 1px 1px 0 0;
+	padding: 2px 5px;
+	margin: 0;
+
+}
+
+.input_edit {
+	border: 1px solid #bfbfbf;
+	border-radius: 2px;
+}
+
+.textarea_edit {
+	width: 100%;
+	height: 100px;
+	resize: none;
+}
+
+.tag_container {
+	display: flex;
+	flex-wrap: wrap;
+
+}
+.tag_item {
+	flex: 0 1 auto;
+	width: 150px;
+	margin: auto;
+}
+
+.suitable_container {
+	display: flex;
+	flex-wrap: wrap;
+
+}
+.suitable_item {
+	flex: 0 1 auto;
+	width: 250px;
+}
+
+.bolk_container {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: flex-end;
+
+}
+.bolk_item {
+	flex: 0 1 auto;
+	width: 120px;
+}
+
+.search_form {
+	border: 1px solid #e7e7e7;
+	margin-bottom: 1em;
+}
+
+.search_form table {
+	/*border-collapse: collapse; */
+	width: 100%;
+}
+
+.pager_container {
+	width: 100%;
+	display: flex;
+	flex-wrap: wrap;
+	align-content: flex-start;
+}
+
+.pager_item {
+	flex: 0 1 auto;
+	width: 2em;
+	text-align: right;
+}
+
+#active_page {
+	color: #00000a !important;
+	font-weight: bold;
+}
+
+.textarea_comment {
+	width: 100%;
+	height: 300px;
+	resize: none;
+}
+
+.toolbox {
+	text-align: center;
+	margin-top: 1em;
+	margin-bottom: 1em;
+	padding-top: 0.5em;
+	padding-bottom: 0.5em;
+	border: 1px dotted #e7e7e7;
+}
+
+#tur_list tr td:nth-child(1) {
+	padding-top: 5px;
+	width: 2em;
+}
+
+#tur_list tr td:nth-child(2) {
+	padding-top: 5px;
+}
+
+#active_tur a {
+	/* font-weight: bold; */
+	color: #00000a;
+}
+
+.youtube-frame {
+	width: 100%;
+	height: 300px;
+}
+
+.play-youtube-video {
+	color: #004070;
+}
+
+.add_form_error {
+	color: red;
+}
+
+header h1 {
+	margin-bottom: 0;
+}

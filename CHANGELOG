@@ -1,0 +1,53 @@
+v1.9
+  - direkteaksess på turid
+  - bedre logg
+  - tags er nå i sortert rekkefølge
+
+v1.8
+  - login med brukernavn og passord
+  - mulighet til å aktivere/deaktivere brukere
+  - logg endringer av turer
+  - reset passord om glemt
+  - verifiser gammelt passord før nytt blir satt
+
+v1.7
+  - Fikset mulighet til å redigere første treff
+  - Lagt til et enkelt adminpanel i admin.php
+  - Tatt bort deling-felt (ble ikke brukt)
+  - Lagt til oversikt over tags
+
+v1.6
+  - Endret stilen i tittelen slik at det ble bedre plass
+  - Endre Om -> Info
+  - Endre index.php -> /
+
+v1.5
+  - Vederesend til den forespurte siden etter login
+  - Forbedre visning av turer uten video/beskrivelse
+  - Lagt til direktelink til turer uten video/beskrivelse
+  - Lagt til liste over turer med manglende vanskelighetsgrad
+
+v1.4
+  - Lagt til lister over turer uten video/beskrivelse
+
+v1.3
+  - Vis youtube-video direkte på siden
+  - Bedre scaling på login-siden
+  - Krev at en tur har navn/tittel
+  - Forbedret valideringen av youtube-videoer
+  - Fikset at bolk ikke ble vist korrekt
+
+v1.2
+  - Fiks cache escape
+  - Endret activ farge på side og tur
+  - Les CHANGELOG direkte på "om"-siden
+
+v1.1
+  - Fikset en feil som forårsaket krasj på datosøk
+  - Forhindre html/css/js "injection" i inputbokser
+  - Laget denne "om"-siden
+  - Marker den valgte turen i en annen farge
+  - Forbedre håndtering av hvilken tur som skal vises
+
+v1.0
+  - Første utkast. Noe funker som det skal

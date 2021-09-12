@@ -1,0 +1,16 @@
+done: ikke undervist ennå - knapp
+done: edit eksisterende tur
+done: num_id i meta databasen (holde styr på "neste" num_id)
+      vis meta (tags, suitable)
+done: undervist nå - knapp
+done: sorter på vanskelighetsgrad
+done: sorter på sist undervist
+done: sorter på bolk
+done: lag en løsning på hvordan man skal legge til relaterte turer (i enkleste firstand bare en kommaseparert liste på num_id (litt som på mail))
+      placeholders på add.php form
+      mulighet for å legge til/redigere tags
+done: hele suitable greia
+done: fiks delete
+
+done: fiks språk
+done: håndter yt videoer
